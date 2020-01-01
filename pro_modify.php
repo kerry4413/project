@@ -25,6 +25,7 @@
                 }
             ?>
             <input name="submit" type="submit" value="OK">
+            <input name="delete" type="button" value="Delete account" onclick="location.href='pro_delete.php'">
         </form>
     </body>
 </html>  
