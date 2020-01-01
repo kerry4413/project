@@ -3,7 +3,7 @@
 
 <head>
     <title>登入</title>
-    <link rel="stylesheet" href ="static    /assets/css/login.css"/>
+    <link rel="stylesheet" href ="static/assets/css/login.css"/>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="static/assets/css/main.css" />
@@ -33,9 +33,9 @@
             <br>
             <input id="submit" name="submit" type="submit" value="登入" style="width:50%;height: 55px; font-size: 16px; margin: 4px 2px;"><br>
             <label> 還沒有帳號嗎?<br>
-            <input type="button" style="width:50%;height: 55px; font-size: 16px; margin: 4px 2px;" value="註冊" onclick="location.href='register.html'" /></label><br>
+            <input type="button" style="width:50%;height: 55px; font-size: 16px; margin: 4px 2px;" value="註冊" onclick="location.href='pro_register.php'" /></label><br>
 
-            <b><a href="index" style="width:20%;font-size:15px;color:#727a82;background-color:rgba(0,0,0,0);text-decoration:none;" >返回主頁</a></b>
+            <b><a href="pro_index.php" style="width:20%;font-size:15px;color:#727a82;background-color:rgba(0,0,0,0);text-decoration:none;" >返回主頁</a></b>
 		</form>
 	</div>
 <body>
