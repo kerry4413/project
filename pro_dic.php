@@ -10,6 +10,7 @@
             Pokemon name:
             <input name="seek" type="text">
             <input type="submit" value="seek">
+            &nbsp;&nbsp;&nbsp;<a href="pro_index.php">返回主頁</a>
         </form>
         <?php
             require 'pro_connect.php';
@@ -32,7 +33,9 @@
                     echo '<td>'.$result->restraint.'</td>';
                     echo '</tr>';
                 }
+                echo '</table>';
             }
+            
         ?>
     </body>
 </html>

@@ -28,7 +28,9 @@
                     echo '<td>'.$result->Introduce.'</td>';
                     echo '</tr>';
                 }
+                echo '</table>';
             }
         ?>
+        <a href="pro_index.php">返回主頁</a>
     </body>
 </html>

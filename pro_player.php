@@ -31,8 +31,10 @@
                     echo '<td>'.$result->plevel.'</td>';
                     echo '</tr>';
                 }
-            }
+                echo '</table>';
+            } 
         ?>
+        <a href="pro_index.php">返回主頁</a>
     </body>
 
 </html>
