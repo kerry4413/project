@@ -4,11 +4,11 @@
 //資料庫位置
 $db_server = "localhost";
 //資料庫名稱
-$db_name = "project";
+$db_name = "pokemon";
 //資料庫管理者帳號
-$db_user = "kerry4413";
+$db_user = "liao";
 //資料庫管理者密碼
-$db_passwd = "Kerry11511";
+$db_passwd = "871029";
 //對資料庫連線
 $db = mysqli_connect($db_server, $db_user, $db_passwd, $db_name);
 if(mysqli_connect_errno($db))
@@ -18,6 +18,6 @@ if(mysqli_connect_errno($db))
 mysqli_set_charset($db,'utf8');
 //選擇資料庫
 //echo mysqli_select_db($db,'user');
-if(!mysqli_select_db($db,'project'))
+if(!mysqli_select_db($db,'pokemon'))
         die("無法使用資料庫");
 ?>

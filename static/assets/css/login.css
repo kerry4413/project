@@ -60,3 +60,9 @@
         width: 50%;
         height: 55px;
     }
+    a{
+        font-family:Microsoft JhengHei,'Courier New', Courier, monospace;width:10%;font-size:15px;color:#727a82;text-decoration:none;
+    }
+    body{
+        background-color:rgba(195,255,255,0.1);
+    }
